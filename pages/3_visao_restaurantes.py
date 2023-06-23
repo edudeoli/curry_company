@@ -213,7 +213,8 @@ with tab1:
             col2.metric('Distância média das entregas', avg_distance)
             
         with col3:
-            df_aux = avg_std_time_delivery( df1, 'avg_time', 'Yes')
+            df_aux = avg_std_time_delivery(df1, 'avg_time', 'Yes')
+            df_aux['avg_time'] = df_aux['avg_time'].round(2)
             col3.metric('AVG entregas com Festival', df_aux)
             
         
