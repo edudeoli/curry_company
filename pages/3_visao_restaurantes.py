@@ -62,11 +62,11 @@ def avg_std_time_delivery(df1, op, festival):
                             -df: Dataframe com 2 colunas e 1 linhas:
         """              
         cols = ['Time_taken(min)', 'Festival']
-        df_aux = df1.loc[:, cols].groupby(['Festival']).agg({'Time_taken(min)': ['mean','std']})
+        df_aux = df1.loc[:, cols].groupby(['Festival']).agg({'Time_taken(min)': ['mean', 'std']})
         df_aux.columns = ['avg_time', 'std_time']
         df_aux = df_aux.reset_index()
         linhas_selecionadas = df_aux['Festival'] == festival
-        df_aux = np.round(df_aux.loc[linhas_selecionadas, op], 2)       
+        df_aux.loc[linhas_selecionadas, op] = df_aux.loc[linhas_selecionadas, op].round(2)
         return df_aux
 
 def distance(df1):
