@@ -66,7 +66,7 @@ def avg_std_time_delivery(df1, op, festival):
         df_aux.columns = ['avg_time', 'std_time']
         df_aux = df_aux.reset_index()
         linhas_selecionadas = df_aux['Festival'] == festival
-        df_aux.loc[linhas_selecionadas, op] = df_aux.loc[linhas_selecionadas, op].round(2)
+        df_aux.loc[linhas_selecionadas, op] = df_aux.loc[linhas_selecionadas, op].values.round(2)
         return df_aux
 
 def distance(df1):
@@ -214,7 +214,6 @@ with tab1:
             
         with col3:
             df_aux = avg_std_time_delivery(df1, 'avg_time', 'Yes')
-            df_aux['avg_time'] = df_aux['avg_time'].round(2)
             col3.metric('AVG entregas com Festival', df_aux)
             
         
