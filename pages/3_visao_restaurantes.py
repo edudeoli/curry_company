@@ -66,8 +66,7 @@ def avg_std_time_delivery(df1, op, festival):
         df_aux.columns = ['avg_time', 'std_time']
         df_aux = df_aux.reset_index()
         linhas_selecionadas = df_aux['Festival'] == festival
-        #df_aux = np.round(df_aux.loc[linhas_selecionadas, op], 2)
-        df_aux['rounded_' + op] = np.round(df_aux.loc[linhas_selecionadas, op], 2)
+        df_aux = np.round(df_aux.loc[linhas_selecionadas, op], 2)
         return df_aux
 
 def distance(df1):
