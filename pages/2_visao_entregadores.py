@@ -107,7 +107,7 @@ df1 = clean_code(df)
 
 st.header('Marketplace - Visão Entregadores')
 
-# image_path = 'C:\\Users\\Edu_D\\OneDrive\\Documentos\\edu\\Data Formation\\Repos\\ftc_analisando_dados_com_pyhton\\ciclo_6\\logo.png'
+
 image = Image.open( 'logo.png' )
 st.sidebar.image( image, width=120 )
 
