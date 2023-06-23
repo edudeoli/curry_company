@@ -61,8 +61,6 @@ def avg_std_time_delivery(df1, op, festival):
                         Output:
                             -df: Dataframe com 2 colunas e 1 linhas:
         """              
-        
-def avg_std_time_delivery(df1, op, festival):
         cols = ['Time_taken(min)', 'Festival']
         df_aux = df1.loc[:, cols].groupby(['Festival']).agg({'Time_taken(min)': ['mean','std']})
         df_aux.columns = ['avg_time', 'std_time']
