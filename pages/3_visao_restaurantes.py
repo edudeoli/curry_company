@@ -20,8 +20,8 @@ st.set_page_config(page_title='Visão Restaurantes', page_icon='', layout='wide'
 
 def avg_std_time_on_traffic(df1):
         df_aux = ( df1.loc[:, ['City','Time_taken(min)', 'Road_traffic_density']]
-                        .groupby(['City', 'Road_traffic_density'])
-                        .agg({'Time_taken(min)': ['mean','std']}))
+                      .groupby(['City', 'Road_traffic_density'])
+                      .agg({'Time_taken(min)': ['mean','std']}))
         df_aux.columns = ['avg_time', 'std_time']
         df_aux = df_aux.reset_index()
         fig = px.sunburst(df_aux, path=['City', 'Road_traffic_density'], values='avg_time',
