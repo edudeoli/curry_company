@@ -160,7 +160,7 @@ df1 = clean_code(df)
 
 st.header('Marketplace - Visão Empresa')
 
-# image_path = 'C:\\Users\\Edu_D\\OneDrive\\Documentos\\edu\\Data Formation\\Repos\\ftc_analisando_dados_com_pyhton\\ciclo_6\\logo.png'
+
 image = Image.open( 'logo.png' )
 st.sidebar.image( image, width=120 )
 
@@ -173,7 +173,7 @@ st.sidebar.markdown( '## Selecione uma data limite' )
 
 date_slider = st.sidebar.slider(
     'Até qual valor?',
-    value = pd.datetime( 2022, 6, 19 ),
+    value = pd.datetime( 2022, 2, 1 ),
     min_value = pd.datetime( 2022, 2, 11 ),
     max_value = pd.datetime( 2022, 4, 6 ),
     format = 'DD-MM-YYYY' )
