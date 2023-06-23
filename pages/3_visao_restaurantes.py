@@ -66,7 +66,8 @@ def avg_std_time_delivery(df1, op, festival):
         df_aux.columns = ['avg_time', 'std_time']
         df_aux = df_aux.reset_index()
         linhas_selecionadas = df_aux['Festival'] == festival
-        df_aux = np.round(df_aux.loc[linhas_selecionadas, op], 2)       
+        #df_aux = np.round(df_aux.loc[linhas_selecionadas, op], 2)
+        df_aux.loc[linhas_selecionadas, op] = df_aux.loc[linhas_selecionadas, op].round(2)
         return df_aux
 
 def distance(df1):
@@ -155,7 +156,7 @@ df1 = clean_code(df)
 
 st.header('Marketplace - Visão Restaurantes')
 
-# image_path = 'C:\\Users\\Edu_D\\OneDrive\\Documentos\\edu\\Data Formation\\Repos\\ftc_analisando_dados_com_pyhton\\ciclo_6\\logo.png'
+
 image = Image.open( 'logo.png' )
 st.sidebar.image( image, width=120 )
 
