@@ -8,7 +8,7 @@ st.set_page_config(
 )
     
 # image_path = r'C:\Users\Edu_D\OneDrive\Documentos\edu\Data Formation\Repos\ftc_analisando_dados_com_pyhton\ciclo_6'
-image = Image.open('logo2.png')
+image = Image.open('logo3.png')
 st.sidebar.image(image, width=120)
 
 st.sidebar.markdown( '# Curry Company' )
