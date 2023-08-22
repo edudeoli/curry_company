@@ -6,6 +6,7 @@ O objetivo central deste projeto é criar um conjunto de gráficos e/ou tabelas 
 
 ## Métricas de Crescimento
   1.0. **Do Lado da Empresa**
+  
     - 1.2. Quantidade de Pedidos por Dia.
     
     - 1.3. Quantidade de Pedidos por Semana.
