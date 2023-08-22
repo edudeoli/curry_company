@@ -5,28 +5,28 @@ Neste projeto, como Cientista de Dados, sua missão é criar uma ferramenta que 
 O objetivo central deste projeto é criar um conjunto de gráficos e/ou tabelas que apresentem as métricas de crescimento chave para o CEO da Cury Company. Você analisará dados dos três principais clientes da empresa: restaurantes, entregadores e consumidores. A visualização desses KPIs ajudará o CEO a tomar decisões informadas e a entender os padrões de crescimento.
 
 ## Métricas de Crescimento
-01. Do Lado da Empresa
-02. Quantidade de Pedidos por Dia.
-03. Quantidade de Pedidos por Semana.
-04. Distribuição dos Pedidos por Tipo de Tráfego.
-05. Comparação do Volume de Pedidos por Cidade e Tipo de Tráfego.
-06. Quantidade de Pedidos por Entregador por Semana.
-07. Localização Central de Cada Cidade por Tipo de Tráfego.
-08. Do Lado dos Entregadores
-09. Menor e Maior Idade dos Entregadores.
-10. Pior e Melhor Condição de Veículos.
-11. Avaliação Média por Entregador.
-12. Avaliação Média e Desvio Padrão por Tipo de Tráfego.
-13. Avaliação Média e Desvio Padrão por Condições Climáticas.
-14. Os 10 Entregadores Mais Rápidos por Cidade.
-15. Os 10 Entregadores Mais Lentos por Cidade.
-16. Do Lado dos Restaurantes
-17. Quantidade de Entregadores Únicos.
-18. Distância Média entre Restaurantes e Locais de Entrega.
-19. Tempo Médio e Desvio Padrão de Entrega por Cidade.
-20. Tempo Médio e Desvio Padrão de Entrega por Cidade e Tipo de Pedido.
-21. Tempo Médio e Desvio Padrão de Entrega por Cidade e Tipo de Tráfego.
-22. Tempo Médio de Entrega Durante Festivais.
+1.0. **Do Lado da Empresa**
+1.2. Quantidade de Pedidos por Dia.
+1.3. Quantidade de Pedidos por Semana.
+1.44. Distribuição dos Pedidos por Tipo de Tráfego.
+1.5. Comparação do Volume de Pedidos por Cidade e Tipo de Tráfego.
+1.6. Quantidade de Pedidos por Entregador por Semana.
+1.7. Localização Central de Cada Cidade por Tipo de Tráfego.
+2.0. **Do Lado dos Entregadores**
+2.1. Menor e Maior Idade dos Entregadores.
+2.2. Pior e Melhor Condição de Veículos.
+2.3. Avaliação Média por Entregador.
+2.4. Avaliação Média e Desvio Padrão por Tipo de Tráfego.
+2.5. Avaliação Média e Desvio Padrão por Condições Climáticas.
+2.6. Os 10 Entregadores Mais Rápidos por Cidade.
+2.7. Os 10 Entregadores Mais Lentos por Cidade.
+3.0. **Do Lado dos Restaurantes**
+3.1. Quantidade de Entregadores Únicos.
+3.2. Distância Média entre Restaurantes e Locais de Entrega.
+3.3. Tempo Médio e Desvio Padrão de Entrega por Cidade.
+3.4. Tempo Médio e Desvio Padrão de Entrega por Cidade e Tipo de Pedido.
+3.5. Tempo Médio e Desvio Padrão de Entrega por Cidade e Tipo de Tráfego.
+3.6. Tempo Médio de Entrega Durante Festivais.
 
 ## Ferramentas Utilizadas
 **Python**: Será utilizado para realizar toda a análise de dados e a criação das visualizações.
