@@ -6,12 +6,17 @@ O objetivo central deste projeto é criar um conjunto de gráficos e/ou tabelas 
 
 ## Métricas de Crescimento
   1.0. **Do Lado da Empresa**
-    1.2. Quantidade de Pedidos por Dia.
-    1.3. Quantidade de Pedidos por Semana.
-    1.44. Distribuição dos Pedidos por Tipo de Tráfego.
-    1.5. Comparação do Volume de Pedidos por Cidade e Tipo de Tráfego.
-    1.6. Quantidade de Pedidos por Entregador por Semana.
-    1.7. Localização Central de Cada Cidade por Tipo de Tráfego.
+    - 1.2. Quantidade de Pedidos por Dia.
+    
+    - 1.3. Quantidade de Pedidos por Semana.
+    
+    - 1.4. Distribuição dos Pedidos por Tipo de Tráfego.
+    
+    - 1.5. Comparação do Volume de Pedidos por Cidade e Tipo de Tráfego.
+    
+    - 1.6. Quantidade de Pedidos por Entregador por Semana.
+    
+    - 1.7. Localização Central de Cada Cidade por Tipo de Tráfego.
 
   2.0. **Do Lado dos Entregadores**
     2.1. Menor e Maior Idade dos Entregadores.
