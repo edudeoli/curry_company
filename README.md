@@ -28,11 +28,11 @@ O objetivo central deste projeto é criar um conjunto de gráficos e/ou tabelas 
 21. Tempo Médio e Desvio Padrão de Entrega por Cidade e Tipo de Tráfego.
 22. Tempo Médio de Entrega Durante Festivais.
 
-##Ferramentas Utilizadas
+## Ferramentas Utilizadas
 **Python**: Será utilizado para realizar toda a análise de dados e a criação das visualizações.
 **Bibliotecas de Visualização**: Dependendo das necessidades, bibliotecas como Matplotlib, Seaborn e Plotly poderão ser usadas para criar gráficos e tabelas informativas.
 
-# Executando o Projeto
+## Executando o Projeto
   - Clone este repositório para o seu ambiente local.
     
   - Utilize o Python e as bibliotecas necessárias para processar os dados e criar visualizações.
