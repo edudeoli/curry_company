@@ -1,4 +1,4 @@
-## Análise de KPIs Estratégicos para o CEO da Cury Company
+## Análise de KPIs Estratégicos para o CEO da CurRy Company
 Neste projeto, como Cientista de Dados, sua missão é criar uma ferramenta que organize os principais KPIs de crescimento da empresa Cury Company, que atua como um Marketplace intermediando restaurantes, entregadores e consumidores. O CEO busca ter uma visão completa e fácil de entender dos indicadores estratégicos que refletem o crescimento dos negócios e ajudam a tomar decisões importantes.
 
 ## Objetivo do Projeto
