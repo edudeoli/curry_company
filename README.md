@@ -20,6 +20,7 @@ O objetivo central deste projeto é criar um conjunto de gráficos e/ou tabelas 
     - 1.7. Localização Central de Cada Cidade por Tipo de Tráfego.
 
   2.0. **Do Lado dos Entregadores**
+  
     2.1. Menor e Maior Idade dos Entregadores.
     2.2. Pior e Melhor Condição de Veículos.
     2.3. Avaliação Média por Entregador.
@@ -29,6 +30,7 @@ O objetivo central deste projeto é criar um conjunto de gráficos e/ou tabelas 
     2.7. Os 10 Entregadores Mais Lentos por Cidade.
 
   3.0. **Do Lado dos Restaurantes**
+  
     3.1. Quantidade de Entregadores Únicos.
     3.2. Distância Média entre Restaurantes e Locais de Entrega.
     3.3. Tempo Médio e Desvio Padrão de Entrega por Cidade.
